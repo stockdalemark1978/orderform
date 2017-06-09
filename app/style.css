@@ -1,0 +1,39 @@
+body {
+    
+}
+
+.container {
+    border: solid;
+    background-color:lightblue;
+    width: 80%;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    transition: .5s;
+}
+
+button:hover {
+    color:red;
+    font-size: 20px;
+}
+
+.options {
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    transition: .5s;
+
+}
+
+.selected {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.options button {
+    margin: -35px;
+}
+
+
